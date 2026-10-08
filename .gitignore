@@ -1,0 +1,19 @@
+# Firmware build outputs
+firmware/*.bin
+firmware/*.elf
+firmware/*.hex
+firmware/*.map
+firmware/*.o
+firmware/dumpfile
+
+# Simulation / compiled outputs
+*.vcd
+*.vvp
+*.out
+a.out
+program
+
+# Editor / OS files
+.vscode/
+.DS_Store
+firmware/main_uart_backup.c
